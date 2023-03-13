@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Rosario:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 1200px) {
+  #search-icon {
+    display: none;
+  }
+  #search-icon-navbar {
+    display: block;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 1200px) {
+  #search-icon {
+    display: block;
+  }
+  #search-icon-navbar {
+    display: none;
+  }
+}
+
+#logo-nav {
+}
+#nav-bar {
+  background-color: rgb(0, 0, 0);
+}
+.nav-text a {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.navbar-toggler-icon div {
+  width: 35px;
+  height: 5px;
+  background-color: rgb(255, 255, 255);
+  margin: 6px 0;sssss
+}
+
+
+.page1 {
+  background-color: black;
+}
+.page1 h4{
+  color: #FFFFFF;
+}
+
+.horizontal-line-middle {
+  border: none;
+  border-top: 3px solid rgb(255, 255, 255); /* promijenite boju i debljinu prema potrebi */
+}
+
+.category-text{
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+color: rgb(0, 0, 0);
+background-color: white;
+padding: 5px;
+border-radius: 15px;
+}
+.small-title{
+  font-size: small;
+  font-weight: 600;
+  padding-left:5%
+}
+.paragraf-title{
+  font-size: small;
+  padding-left:10%
+}
+.paragraf-title-date{
+  font-size: small;
+
+}
