@@ -24,6 +24,7 @@
   color: #979797;
 }
 
+
 .navbar-toggler-icon div {
   width: 35px;
   height: 5px;
@@ -152,15 +153,26 @@ color:rgb(255, 255, 255);
   color: #ffffff;
 }
 
-@media only screen and (max-width: 765px) {
-  .bigscreen4x{
+@media only screen and (max-width: 1200px) {
+
+  .dnone{
     display: none;
   }
   
-  .smallscreen4x{
-    display: block;
-  }
+
 }
+@media only screen and (max-width: 768px) {
+.bigscreen4x{
+  display: none;
+}
+
+}
+@media only screen and (min-width: 768px) {
+.smallscreen4x{
+  display: none;
+}
+  
+  }
 
 @media only screen and (min-width: 1200px) {
   .smallscreen4x{
@@ -172,19 +184,22 @@ color:rgb(255, 255, 255);
   .logo-nav{
     display: none;
   }
+
+
 }
 
 @media only screen and (max-width: 1200px) {
 .top-logo{
   display: none;
-}}
+} }
+
 
 /*sidebar*/
 .background-side{
   background-image: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0),
-    rgba(0, 0, 0, 1)
+    rgba(0, 0, 0, 1) 
   ),
   url('slika1.png');
   height: 100px;
