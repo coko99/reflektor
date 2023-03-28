@@ -28,11 +28,11 @@
   </head>
   <body>
     <!--NAV-->
-    <div class="container-fluid top-logo">
+    <div class="container-fluid top-logo bgblack">
       <div class="container">
         <div class="row">
           <div class="col-6 p-0 d-flex justify-content-start">
-            <a class="navbar-brand" href="#"
+            <a class="navbar-brand" href="index.html"
               ><img
                 id="logo-nav"
                 src="./logo.png"
@@ -41,19 +41,27 @@
             /></a>
           </div>
           <div class="col-6 p-0 d-flex justify-content-end align-items-center">
-            <input style="height: 20px" type="text" name="" id="" />
-            <i
-              id="search-icon"
-              class="fa fa-search p-3"
-              style="color: rgb(186, 186, 186)"
-            ></i>
+            <input
+              class="inputt"
+              style="height: 20px"
+              type="text"
+              name=""
+              id=""
+            />
+            <img
+              onclick="sakrij()"
+              id="logo-nav"
+              src="lupica.png"
+              alt="Logo"
+              style="width: 30px"
+            />
           </div>
         </div>
       </div>
     </div>
 
     <nav id="nav-bar" class="navbar navbar-expand-xl sticky-top">
-      <div class="container p-3 d-flex">
+      <div class="container px-0 py-0 mt-3 d-flex">
         <div class="logo-nav">
           <img src="logo.png" alt="" style="width: 150px" />
         </div>
@@ -84,7 +92,7 @@
               <a class="nav-link" href="post.html">Fudbal</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Košarka</a>
+              <a class="nav-link" href="kategorija.html">Košarka</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Rukomet</a>
@@ -112,18 +120,19 @@
             </li>
             <li class="nav-item lupica-nav">
               <input type="text" name="" id="" />
-              <i
-                id="search-icon"
-                class="fa fa-search p-3"
-                style="color: rgb(186, 186, 186)"
-              ></i>
+              <img
+                id="logo-nav"
+                src="lupica.png"
+                alt="Logo"
+                style="width: 30px"
+              />
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!--NAV END-->
-    <div class="container-fluid pb-3">
+    <div class="container-fluid mt-3 pb-3">
       <div
         id="carouselExampleIndicators"
         class="carousel slide"
@@ -323,7 +332,7 @@
             </div>
             <div class="container">
               <div class="row">
-                <div class="col-12 mt-3 p-0 d-flex justify-content-end">
+                <div class="col-12 mt-3 more p-0 d-flex justify-content-end">
                   <a href="#" class="more">vidi još</a>
                 </div>
               </div>
@@ -416,7 +425,7 @@
             </div>
             <div class="container">
               <div class="row">
-                <div class="col-12 mt-3 p-0 d-flex justify-content-end">
+                <div class="col-12 mt-3 more p-0 d-flex justify-content-end">
                   <a href="#" class="more">vidi još</a>
                 </div>
               </div>
@@ -513,8 +522,8 @@
             </div>
             <div class="container">
               <div class="row">
-                <div class="col-12 mt-3 p-0 d-flex justify-content-end">
-                  <a href="#" class="">vidi još</a>
+                <div class="col-12 mt-3 more p-0 d-flex justify-content-end">
+                  <a href="#" class="more">vidi još</a>
                 </div>
               </div>
             </div>
@@ -606,7 +615,7 @@
             </div>
             <div class="container">
               <div class="row">
-                <div class="col-12 mt-3 p-0 d-flex justify-content-end">
+                <div class="col-12 mt-3 more p-0 d-flex justify-content-end">
                   <a href="#" class="more">vidi još</a>
                 </div>
               </div>
@@ -677,6 +686,7 @@
         </div>
       </div>
     </div>
+    <script src="index.js"></script>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
