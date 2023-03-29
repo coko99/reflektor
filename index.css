@@ -67,7 +67,7 @@ justify-content: space-between;
 .blog-title{
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 40px;
   color: #ffffff;
 }
 
@@ -234,7 +234,7 @@ color: #FFFFFF;
 }
 .p-post-blog{
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
 font-weight: 400;
 color: #FFFFFF;
 
@@ -243,6 +243,7 @@ color: #FFFFFF;
   font-family: 'IBM Plex Sans', sans-serif;
 font-weight: 400;
 color: #FFFFFF;
+font-size: 16px;
 }
 
 .share-icons img{
