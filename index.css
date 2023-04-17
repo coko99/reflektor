@@ -10,6 +10,7 @@ body{
   background-color: black !important;
 }
 
+
 #nav-bar {
   background-color: rgb(0, 0, 0);
   padding: 0;
@@ -82,11 +83,11 @@ justify-content: space-between;
   font-weight: 300px;
   right:15px;
   bottom: 15px;
-  font-size: 20px;
+  font-size: 15px;
   color: #ffffff;
 }
 .author{
-  font-size: 22px;
+  font-size: 15px;
   font-weight: 400;
   color: #ffffff;
 }
