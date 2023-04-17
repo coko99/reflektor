@@ -177,7 +177,9 @@ color:rgb(255, 255, 255);
 @media only screen and (max-width: 768px) {
 .bigscreen4x{
   display: none;
+
 }
+
 
 }
 @media only screen and (min-width: 768px) {
@@ -208,6 +210,7 @@ color:rgb(255, 255, 255);
 .top-logo{
   display: none;
 } }
+
 
 
 /*sidebar*/
