@@ -103,9 +103,9 @@ justify-content: space-between;
 .more{
   font-family: 'IBM Plex Sans', sans-serif;
 font-style: normal;
-font-weight: 700;
+font-weight: 300;
 font-size:15px;
-text-transform: uppercase;
+
 line-height: 13px;
 color:rgb(255, 255, 255);
 }
@@ -126,6 +126,22 @@ color:rgb(255, 255, 255);
                     ),
                     url('slika1.png');
                   height: 150px;
+                  
+                  background-size: cover;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: space-between;
+                 
+               
+}
+.background-4x-cover{
+  background-image: linear-gradient(
+                      to bottom,
+                      rgba(255, 255, 255, 0),
+                      rgba(0, 0, 0, 1)
+                    ),
+                    url('slika1.png');
+                  height: 300px;
                   
                   background-size: cover;
                   display: flex;
