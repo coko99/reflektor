@@ -19,7 +19,7 @@ body{
   background-color: rgb(0, 0, 0);
   padding: 0;
 }
-.nav-text a {
+.nav-item a {
   font-family: 'IBM Plex Sans', sans-serif;
   font-style: normal;
   font-size: 16px;
@@ -27,8 +27,12 @@ body{
   line-height: 21px;
   text-transform: uppercase;
   color: #ffffff;
+  
 }
-.nav-text a:hover{
+  nav ul li{
+  padding: 6px;
+}
+.nav-item a:hover{
   color: #979797;
 }
 
@@ -45,10 +49,34 @@ body{
 }
 
 
-.inputt{
-  display: none;
-}
 
+@media (min-width: 1450px){
+  .navbar-expand-custom {
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+  }
+  .navbar-expand-custom .navbar-nav {
+      flex-direction: row;
+  }
+  .navbar-expand-custom .dropdown-menu {
+      position: absolute;
+  }
+  .navbar-expand-custom .nav-link {
+      padding-right: .5rem;
+      padding-left: .5rem;
+  }
+  .navbar-expand-custom > .container {
+      flex-wrap: nowrap;
+  }
+  .navbar-expand-custom .navbar-collapse {
+      display: flex!important;
+      flex-basis: auto;
+  }
+  .navbar-expand-custom .navbar-toggler {
+      display: none;
+  }
+}
 
 /*KOD ZA SLAJDER*/
 

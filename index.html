@@ -28,45 +28,24 @@
   </head>
   <body>
     <!--NAV-->
-    <div class="container-fluid top-logo bgblack mt-4">
-      <div class="container widthContainer">
-        <div class="row">
-          <div class="col-6 p-0 d-flex justify-content-start">
-            <a class="navbar-brand" href="index.html"
-              ><img
-                id="logo-nav"
-                src="./img/logo.png"
-                alt="Logo"
-                style="width: 200px"
-            /></a>
-          </div>
-          <div class="col-6 p-0 d-flex justify-content-end align-items-center">
-            <input
-              class="inputt"
-              style="height: 20px"
-              type="text"
-              name=""
-              id=""
-            />
-            <img
-              onclick="sakrij()"
-              id="logo-nav"
-              src="./img/lupica.png"
-              alt="Logo"
-              style="width: 25px"
-            />
-          </div>
+    <div
+      class="container-fluid sticky-top p-3"
+      style="z-index: 99999; background-color: black"
+    >
+      <nav class="navbar navbar-expand-custom mx-auto">
+        <div style="width:200px">
+          <a class="navbar-brand" href="#"
+          ><img
+            id="logo-nav"
+            src="./img/logo.png"
+            alt="Logo"
+            style="width: 200px"
+        /></a>
         </div>
-      </div>
-    </div>
 
-    <nav id="nav-bar" class="navbar navbar-expand-xl sticky-top">
-      <div class="container px-0 py-0 mt-3 d-flex">
-        <div class="logo-nav">
-          <img src="logo.png" alt="" style="width: 150px" />
-        </div>
+    
         <button
-          class="navbar-toggler ml-auto"
+          class="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
@@ -75,17 +54,11 @@
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"
-            ><img src="burger.png" style="width: 45px" alt=""
+            ><img src="img/burger.png" style="width: 30px" alt=""
           /></span>
         </button>
-        <div
-          class="collapse navbar-collapse border-bottom justify-content-center"
-          id="navbarNav"
-        >
-          <ul
-            class="navbar-nav nav-text justify-content-between"
-            style="width: 100%"
-          >
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Naslovna</a>
             </li>
@@ -93,7 +66,7 @@
               <a class="nav-link" href="post.html">Fudbal</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="kategorija.html">Košarka</a>
+              <a class="nav-link aktivniLink" href="kategorija.html">Košarka</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Rukomet</a>
@@ -116,22 +89,19 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Crno-beli svet</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Arhiva</a>
-            </li>
-            <li class="nav-item lupica-nav">
-              <input type="text" name="" id="" />
-              <img
-                id="logo-nav"
-                src="lupica.png"
-                alt="Logo"
-                style="width: 30px"
-              />
-            </li>
+    
           </ul>
+          <div style="width:200px">
+            <form class="form-inline my-2 my-lg justify-content-end">
+              <input type="text" name="" id="" style="width: 100px" />
+              <img src="img/lupica.png" alt="" />
+            </form>
+          </div>
+        
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
+
     <!--NAV END-->
     <div class="container-fluid mt-3 pb-3">
       <div
@@ -240,6 +210,73 @@
         </a>
       </div>
       <!---->
+    </div>
+    <div class="container p-0">
+      <div class="row p-0">
+        <div class="col-4">
+          <div class="background-4x mb-2 mt-2 pb-2 pl-3 pr-3">
+            <div class="category4x mt-3" style="width: max-content">
+              Kategorija
+            </div>
+            <div class="h-100 d-flex align-items-end">
+              <h6 class="blog-title4x">
+                Rikardo Gomes pred mec u Moldaviji: “Ostavicemo poslednji atom
+                snage”
+              </h6>
+            </div>
+
+            <div class="container-fluid">
+              <div class="row blog-info4x">
+                <div class="author4x">By <strong>Kreator</strong></div>
+                <div class="date4x"><span>14/02/23</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="background-4x mb-2 mt-2 pb-2 pl-3 pr-3">
+            <div class="category4x mt-3" style="width: max-content">
+              Kategorija
+            </div>
+            <div class="h-100 d-flex align-items-end">
+              <h6 class="blog-title4x">
+                Rikardo Gomes pred mec u Moldaviji: “Ostavicemo poslednji atom
+                snage”
+              </h6>
+            </div>
+
+            <div class="container-fluid">
+              <div class="row blog-info4x">
+                <div class="author4x">By <strong>Kreator</strong></div>
+                <div class="date4x"><span>14/02/23</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="background-4x mb-2 mt-2 pb-2 pl-3 pr-3">
+            <div class="category4x mt-3" style="width: max-content">
+              Kategorija
+            </div>
+            <div class="h-100 d-flex align-items-end">
+              <h6 class="blog-title4x">
+                Rikardo Gomes pred mec u Moldaviji: “Ostavicemo poslednji atom
+                snage”
+              </h6>
+            </div>
+
+            <div class="container-fluid">
+              <div class="row blog-info4x">
+                <div class="author4x">By <strong>Kreator</strong></div>
+                <div class="date4x"><span>14/02/23</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+    
+        </div>
+      </div>
     </div>
 
     <!--NA VELIKIM EKRANIMA-->
