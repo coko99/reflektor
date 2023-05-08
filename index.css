@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 body{
@@ -178,6 +179,23 @@ color:rgb(255, 255, 255);
                  
                
 }
+
+.blog-title-kover{
+  font-size: 16px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-align: left;
+  color: #ffffff;
+  font-weight: 400;
+}
+.category-kover{
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius:25px;
+}
+
 
 .blog-title4x{
   font-size: 13px;
